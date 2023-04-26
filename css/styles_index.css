@@ -1,0 +1,53 @@
+.filter {
+  width: 20%;
+  float: left;
+}
+
+.catalog {
+  width: 75%;
+  float: right;
+  overflow: hidden;
+}
+
+/*Данные в каталоге товаров*/
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+/*Блок с информацией о товаре*/
+.block {
+  width: 20%;
+  height: 40vh;
+  display: block;
+  border: 1px var(--color-white) solid;
+  border-radius: 24px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  box-shadow: 2px 2px 5px var(--color-red-transparency);
+  background-color: var(--color-white);
+  text-align: left;
+  padding: 1%;
+}
+
+.cont_imgs {
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cont_text {
+  font-size: 1vw;
+  height: 23%;
+}
+
+.cont_count {
+  text-align: center;
+}
+
+.btn_filt {
+  margin: 0.7vw 0.7vw;
+  float: right;
+}

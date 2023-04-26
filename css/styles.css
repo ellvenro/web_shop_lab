@@ -1,0 +1,171 @@
+:root {
+  --color-grey: #999;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-red: #ff0000;
+  --color-red-grey: #ebcccc;
+  --color-red-transparency: rgba(255, 0, 0, 0.5);
+  --color-white-transparency: rgba(255, 255, 255, 0.5);
+}
+
+* {
+  font-family: "Comic Sans MS";
+}
+
+body {
+  background-image: url('/img/back.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+    font-weight: bold;
+}
+
+/*Заголовок*/
+.head {
+  font-family: "Brush Script MT";
+  font-size: 5em;
+  float:left;
+  text-shadow: 4px 4px 10px var(--color-red-transparency), 0px 0px 10px var(--color-red-transparency);
+}
+
+.reg {
+  display: table-cell;
+  vertical-align: bottom;
+  float:right;
+  margin-top: 5em;
+}
+
+/*Меню*/
+nav ul {
+  line-height: 3vw;
+  background-color: var(--color-black);
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  border-bottom: 4px solid var(--color-black);
+  transition-duration: 0.5s;
+}
+
+nav li:hover {
+  background: linear-gradient(var(--color-black), 80%, #500000);
+  border-bottom: 4px solid var(--color-red);
+}
+
+nav a {
+  color: var(--color-white);
+  margin: 0 3em;
+}
+
+nav a:hover {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+/*Ссылки*/
+a {
+  color: var(--color-black);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--color-red);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*Заголовки*/
+h1 {
+  margin-left: 2%;
+  /*text-shadow: 4px 4px 5px rgba(255, 0, 0, 0.5);*/
+  color: var(--color-black);
+}
+
+/*Футер*/
+footer {
+  text-align: right;
+  background-color: var(--color-black);
+  line-height: 3vw;
+}
+
+footer a {
+  color: var(--color-white);
+  margin-right: 2em;
+}
+
+/*Чекбоксы*/
+input:where([type="checkbox"]){
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.2vw;
+  height: 1.2vw;
+  margin: calc(0.75em - 11px) 0.25rem 0 0;
+  vertical-align: top;
+  border: 1px solid var(--color-grey);
+  border-radius: 4px;
+  background: var(--color-white) no-repeat center center;
+}
+
+input[type="checkbox"]:checked{
+  background-color: var(--color-red-transparency);
+}
+
+input[type="checkbox"]:hover{
+  border: 1px solid var(--color-red);
+  cursor: pointer;
+}
+
+/*Ввод текста*/
+input, select {
+  border: 1px solid var(--color-grey);
+  border-radius: 4px;
+  background: var(--color-white) no-repeat center center;
+}
+
+input:hover, select:hover{
+  border: 1px solid var(--color-red);
+  cursor: pointer;
+}
+
+input:active{
+  border: 1px solid var(--color-red);
+}
+
+.input_null {
+  background: var(--color-red-transparency);
+}
+
+/*Кнопки*/
+button {
+  border: 1px solid var(--color-grey);
+  border-radius: 5px;
+  transition: 0.3s;
+  background-color: var(--color-red-grey);
+}
+
+button:hover {
+  background-color: var(--color-red-transparency);
+  border: 1px solid var(--color-red);
+  cursor: pointer;
+}
+
+/*Группа*/
+fieldset{
+ border: 1px var(--color-grey) solid;
+}​
+
+form {
+  margin: 0;
+}
+
+/*Блок информации*/
+.information {
+  font-size: 1.2vw;
+  padding: 0% 30%;
+}

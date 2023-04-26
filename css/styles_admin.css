@@ -1,0 +1,16 @@
+table {
+  width: 80%;
+  background-color: var(--color-white-transparency);
+}
+
+#types {
+  width: 50%;
+}
+
+#product {
+  width: 100%;
+}
+
+.main {
+  min-height:65%;
+}

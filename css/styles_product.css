@@ -1,0 +1,31 @@
+.product {
+  width: 90%;
+  margin-right: 0;
+  margin-left: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  height: auto;
+}
+
+#product_imgs{
+  width: 30%;
+  height: 40vh;
+}
+
+.product_inf {
+  padding: 0;
+  width: 60%;
+  height: 100%;
+  margin-left: 1%;
+}
+
+.button_basket {
+  margin: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.button_basket button {
+  font-size: 1.2em;
+}

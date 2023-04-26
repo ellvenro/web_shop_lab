@@ -1,0 +1,12 @@
+.prof {
+  font-size: 1.2em;
+}
+
+.prof td {
+  border-bottom: 1px solid var(--color-grey);
+  padding-top: 1em;
+}
+
+.none {
+  display: none;
+}

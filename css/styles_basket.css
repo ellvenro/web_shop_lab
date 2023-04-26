@@ -1,0 +1,26 @@
+#table_basket {
+  width: 60%;
+  margin-left: 20%;
+  background-color: var(--color-white);
+  border-collapse: collapse;
+}
+
+#table_basket tr {
+}
+
+.img_basket {
+  height: 10vh;
+}
+
+.td_img {
+  width: 30%;
+  text-align: center;
+}
+
+.tr_final {
+  text-align: right;
+}
+
+form {
+  margin-bottom: 0;
+}

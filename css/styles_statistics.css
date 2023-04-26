@@ -1,0 +1,12 @@
+#content {
+  height: 60%;
+}
+
+.block {
+  height: 10vh;
+}
+
+.number {
+  font-size: 2em;
+  text-align: center;
+}
